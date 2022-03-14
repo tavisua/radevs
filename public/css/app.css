@@ -1,0 +1,108 @@
+html body{
+    height: 100%;
+    background-color: #f5f5f5;
+    direction: ltr;
+}
+.navbar .containder{
+    display: flex;
+}
+.navbar-nav{
+    flex-direction: row!important;
+}
+.navbar-nav .icon{
+    width: 24px;
+    margin: 0 5px;
+}
+.nav-item{
+    margin-right: 10px;
+}
+.nav-item a span{
+    margin: 0 10px;
+}
+.nav-link{
+    color: #6E6B7B!important;
+}
+.btn-primary {
+    border: 1px solid transparent;
+    padding: 0.786rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 0.358rem;
+    text-align: center;
+    background-color: #7367F0!important;
+    color: #FFF;
+    border-color: #7367F0!important;
+}
+.nav-link, .btn-primary, th{
+    font-weight: 500;
+    font-family: 'Montserrat',Helvetica,Arial,serif;
+}
+.nav-link, .btn-primary{
+    cursor: pointer!important;
+}
+.nav-item.active .nav-link{
+    background: -webkit-linear-gradient(332deg,#7367F0,rgba(115,103,240,.7));
+    background: linear-gradient(118deg,#7367F0,rgba(115,103,240,.7));
+    box-shadow: 0 0 6px 1px rgb(115 103 240 / 60%);
+    color: #FFF!important;
+    border-radius: 4px;
+}
+.sub-nav-menu{
+    border: 1px solid rgba(0, 0, 0, 0.125);
+}
+.dt-action-buttons{
+    margin: 0 40px;
+}
+table{
+    margin-top: 10px;
+    --bs-table-bg: transparent;
+    --bs-table-accent-bg: transparent;
+    --bs-table-striped-color: #6E6B7B;
+    --bs-table-striped-bg: #FAFAFC;
+    --bs-table-active-color: #6E6B7B;
+    --bs-table-active-bg: rgba(34, 41, 47, 0.1);
+    --bs-table-hover-color: #6E6B7B;
+    --bs-table-hover-bg: #F6F6F9;
+    width: 100%;
+    color: #6E6B7B;
+    border-color: #EBE9F1;
+}
+
+table th {
+    background-color: #F3F2F7;
+    text-transform: uppercase;
+    font-size: .8rem;
+    letter-spacing: .5px;
+    box-sizing: content-box;
+    font-weight: 600;
+    width: 100%;
+    white-space: nowrap;
+}
+.cell-fit{
+    white-space: nowrap;
+}
+form{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.page-title{
+    font-size: 2.5vw;
+    color: #655af3;
+    font-weight: 500;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.col-form-label{
+    font-weight: 600;
+}
+
+.feather {
+    height: 1rem;
+    width: 1rem;
+    display: inline-block;
+}
+
+.table, .table a{
+    color: #6E6B7B!important;
+}
