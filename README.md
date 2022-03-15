@@ -1,5 +1,5 @@
 ## About project
-This project is tests task for 'Radevs' company
+This test project
 ## Getting started
 
 - Clone project from [github](https://github.com/tavisua/radevs.git) on your server.

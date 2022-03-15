@@ -76,7 +76,7 @@
 
         <div class="card">
             <div class="container">
-                @if(isset($auth) && $auth && $rule == 1)
+                @if(isset($auth) && $auth && isset($rule) && $rule == 1)
                     <ul class="nav navbar-nav" id="main-menu-navigation" data-menu="menu-navigation">
                         <li class="nav-item @if(!isset($active_page) || $active_page == 'home') active @endif"><a class="nav-link d-flex align-items-center" href="/">
                                 <img class="icon" src="{{ url('/icon/managers.png') }}" alt="">
